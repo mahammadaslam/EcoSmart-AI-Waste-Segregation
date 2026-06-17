@@ -1,0 +1,6 @@
+{
+  "name": "EcoSmart AI",
+  "description": "AI-Powered Waste Segregation Assistant aligning with SDG 12.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

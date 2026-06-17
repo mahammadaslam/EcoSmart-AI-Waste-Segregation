@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Mohammad Aslam",
+    "email": "mohammadaslam1014@gmail.com",
+    "password": "",
+    "google_id": "google_sim_6vu3lczjn",
+    "profile_image": "https://lh3.googleusercontent.com/a/ACg8ocL_UpxX5WOn-U-k2jO1QYvY9bXm9=s96-c",
+    "role": "user",
+    "created_at": "2026-06-09T13:05:57.704Z"
+  },
+  {
+    "id": 2,
+    "name": "System Admin",
+    "email": "admin@ecosmart.com",
+    "password": "$2b$10$v094W4zK.N4PscK.iY.8DeCOqgQ9Q5nPhP7vNlGjZ4y9u1vBIdf1m",
+    "google_id": null,
+    "profile_image": null,
+    "role": "admin",
+    "created_at": "2026-06-09T13:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "aslam",
+    "email": "mahammadaslam705@gmail.com",
+    "password": "$2b$10$Uv841iLj62HyHdyY3l1RvuJer9c6An2mU0Y2Y.FHnXIag5.yKGrhu",
+    "google_id": null,
+    "profile_image": null,
+    "role": "user",
+    "created_at": "2026-06-10T07:01:07.731Z"
+  }
+]

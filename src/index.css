@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-natural-cream: #FFFFFF;
+  --color-natural-sand: #F3F4F6;
+  --color-natural-sage-light: #E5E7EB;
+  --color-natural-border: #E5E7EB;
+  --color-natural-primary: #10B981; /* Premium Emerald */
+  --color-natural-primary-hover: #059669;
+  --color-natural-secondary: #047857; /* Secondary Forest */
+  --color-natural-dark: #1F2937;
+  --color-natural-muted: #4B5563; /* Higher Contrast Muted text */
+  --color-natural-accent: #3B82F6; /* Soft Blue Accents */
+  --color-natural-accent-text: #1E40AF;
+
+  /* Dark mode - reduced pitch intensity, sophisticated dark slate forest */
+  --color-natural-dark-bg: #121815; 
+  --color-natural-dark-card: #1B241F;
+  --color-natural-dark-border: #2B3730;
+  --color-natural-dark-text: #F3F4F6;
+  --color-natural-dark-muted: #9CA3AF;
+  --color-natural-dark-accent: #1E3A8A;
+
+  --animate-scan: scan 2.5s ease-in-out infinite;
+
+  @keyframes scan {
+    0% {
+      top: 0%;
+    }
+    50% {
+      top: 100%;
+    }
+    100% {
+      top: 0%;
+    }
+  }
+}
+
