@@ -56,14 +56,13 @@ async function startServer() {
   } else {
     console.log('Hosting: Running in PRODUCTION mode serving statically compiled bundles');
     const distPath = path.join(process.cwd(), 'dist');
-    
-    // Serve static files
-    app.use(express.static(distPath));
-    
-    // Serve index.html as fallback for React SPA routing
-    app.get('*', (req, res) => {
-      res.sendFile(path.join(distPath, 'index.html'));
-    });
+
+app.use('/assets', express.static(path.join(distPath, 'assets')));
+app.use(express.static(distPath));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(distPath, 'index.html'));
+});
   }
 
   // Bind server listener on port 3000 on host 0.0.0.0
